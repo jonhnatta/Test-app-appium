@@ -150,7 +150,7 @@ describe("testando fragment hide and show", () => {
     driver.reset()
   })
 
-  it("verifica conteudo de OK CANCEL DIALOG WITH A MESSAGE", async () => {
+  it("verifica conteudo de fragment hide and show", async () => {
     await $("//android.widget.TextView[@content-desc='App']").click()
     await $("//android.widget.TextView[@content-desc='Fragment']").click()
     await $("//android.widget.TextView[@content-desc='Hide and Show']").click()
